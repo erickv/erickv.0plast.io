@@ -4408,6 +4408,17 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     display: none;
   }
 }
+
+div .carousel-caption h1{
+
+  color: #93c94a;
+  font-family: 'Roboto Slab', serif;
+  text-shadow: none;
+
+}
+
+
+
 .navbar-nav {
   margin: 7.5px -15px;
   font-family: font-family: 'Roboto', sans-serif;
