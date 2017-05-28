@@ -1,0 +1,8 @@
++.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img{
+	max width: 35%;
+	margin-right:3em;
+}
+
+.panel img{
+	width: 100%;
+}
