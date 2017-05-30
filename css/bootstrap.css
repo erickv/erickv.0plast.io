@@ -1272,7 +1272,7 @@ h6,
 .h5,
 .h6 {
   font-family: inherit;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 1.1;
   color: inherit;
 }
@@ -6531,7 +6531,7 @@ button.close {
 .carousel-caption {
   position: absolute;
   right: 15%;
-  bottom: 188px;
+  bottom: 300px;
   left: 15%;
   z-index: 10;
   padding-top: 20px;
@@ -6539,6 +6539,8 @@ button.close {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
 }
 .carousel-caption .btn {
   text-shadow: none;
