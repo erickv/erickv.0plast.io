@@ -41,7 +41,14 @@ footer{
   height: 200px;
   background: #f3f2f2;
 }
- 
+
+.HYPE_element { 
+  -webkit-box-sizing: content-box;  
+  -moz-box-sizing: content-box;   
+  box-sizing: content-box;  
+    }
+
+
 .navbar-brand-footer{
   height: 90px;
   margin-bottom: 67px;
@@ -4710,7 +4717,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #fff;
+  color: #00728b;
   background-color: transparent;
 }
 .navbar-inverse .navbar-nav > .active > a,
@@ -6338,7 +6345,7 @@ button.close {
 }
 .carousel {
   position: relative;
-  height: 700px;
+  height: 500px;
 }
 .carousel-inner {
   position: relative;
@@ -6423,12 +6430,14 @@ button.close {
   bottom: 0;
   left: 0;
   width: 15%;
+  height: 670px;
   font-size: 20px;
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
   background-color: rgba(0, 0, 0, 0);
   filter: alpha(opacity=50);
+
   opacity: .5;
 }
 .carousel-control.left {
@@ -6522,7 +6531,7 @@ button.close {
 .carousel-caption {
   position: absolute;
   right: 15%;
-  bottom: 20px;
+  bottom: 188px;
   left: 15%;
   z-index: 10;
   padding-top: 20px;
